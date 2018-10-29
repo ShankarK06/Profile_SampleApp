@@ -1,0 +1,26 @@
+PODS:
+  - ReachabilitySwift (4.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - Toast-Swift (4.0.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - SDWebImage
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReachabilitySwift
+    - SDWebImage
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+
+PODFILE CHECKSUM: b4596cc1d050c1eea59e3edf27099c671aa1ebe7
+
+COCOAPODS: 1.6.0.beta.1

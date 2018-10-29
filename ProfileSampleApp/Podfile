@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ProfileSampleApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SDWebImage'
+  pod 'ReachabilitySwift'
+  pod 'Toast-Swift'
+
+  # Pods for ProfileSampleApp
+
+  target 'ProfileSampleAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ProfileSampleAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
